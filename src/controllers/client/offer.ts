@@ -1,4 +1,4 @@
-import { OfferConfig, OfferParams, OfferStatus } from '../../types/offer'
+import { DataSendingConfig, OfferConfig, OfferParams, OfferStatus } from '../../types/offer'
 import { ObjectId } from 'mongoose'
 import { Offer } from '../../models/client/offer.js'
 
@@ -10,6 +10,7 @@ export class UseOffer implements OfferConfig {
 	public countryCode: string
 	public status: OfferStatus
 	public params: OfferParams
+	public dataSendingConfig: DataSendingConfig
 
 	constructor (client_id: ObjectId, offer: OfferConfig) {
 

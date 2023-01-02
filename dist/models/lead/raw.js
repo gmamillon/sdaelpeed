@@ -1,7 +1,8 @@
 import { Schema, model } from 'mongoose';
 const rawSchema = new Schema({
-    profile_id: { type: String, requiered: true },
+    profile_id: { type: Schema.Types.ObjectId, requiered: true },
     creationDate: { type: Date, requiered: true },
+    isAccepted: { type: Boolean, required: true },
     raw: { type: Object, requiered: true }
 });
 export const Raw = model('Raws', rawSchema);
