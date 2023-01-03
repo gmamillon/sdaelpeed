@@ -20,15 +20,9 @@ export class UseOffer implements OfferConfig {
 		this.offerName = offer.offerName
 		this.countryCode = offer.countryCode
 		this.status = {
-			RUNNING: status?.RUNNING || false,
-			PUBLISHED: status?.PUBLISHED || false,
-			ARCHIVED: status?.ARCHIVED || false
-		}
-		this.params = {
-			payout: params?.payout || 0,
-			startDate: params?.startDate ? new Date(params.startDate) : null,
-			endDate: params?.endDate ? new Date(params.endDate) : null,
-			dailyCap: params?.dailyCap || [0,0,0,0,0,0,0]
+			RUNNING: false,
+			PUBLISHED: false,
+			ARCHIVED: false
 		}
 	}
 	
