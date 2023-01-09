@@ -6,14 +6,6 @@ export interface ValueFormatSettings {
 
 }
 
-// This Define for a field of a raw lead from a campaign the corresponding standard field name
-// and give the name value format settings.
-export interface FieldMappingParams {
-	standardFieldName: string,
-	rawFieldName: string,
-	valueFormat: string
-}
-
 export interface Campaign {
 	campaignSourceID: string,
 	campaignName: string,
@@ -21,6 +13,5 @@ export interface Campaign {
 	pool: string,
 	contrycode: string,
 	mediabuyer_id?: ObjectId,
-	offersRestriction: string[]|null,
-	mappingSet: FieldMappingParams[]
+	offersRestriction: string[]|null
 }

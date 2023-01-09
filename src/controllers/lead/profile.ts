@@ -9,6 +9,7 @@ export class LeadProfileFormat implements TypeLeadProfile {
 	public emailAddress: string
 	public phoneNumber: string
 	public offers: string[]
+	public pools: string[]
 
 	constructor(phoneNumber: string, emailAddress: string) {
 		this.phoneNumber = phoneNumber

@@ -11,7 +11,7 @@ export interface TypeLeadProfile {
 export interface TypeLeadRaw {
 	phoneNumber: string,
 	emailAddress: string,
-	poolName: string
+	campaignID?: string
 }
 
 export interface TypeWrappedLeadRaw {
