@@ -1,0 +1,38 @@
+[
+	{
+		"campaignSourceID": "123",
+		"campaignName": "abc",
+		"source": "facebook",
+		"pool": "solar-panel",
+		"contrycode": "fr",
+		"mediabuyer_id": "1",
+		"offersRestriction": null
+	},
+	{
+		"campaignSourceID": "456",
+		"campaignName": "def",
+		"source": "tiktok",
+		"pool": "solar-panel",
+		"contrycode": "fr",
+		"mediabuyer_id": "2",
+		"offersRestriction": null
+	},
+	{
+		"campaignSourceID": "789",
+		"campaignName": "ghi",
+		"source": "facebook",
+		"pool": "heat-pump",
+		"contrycode": "fr",
+		"mediabuyer_id": "1",
+		"offersRestriction": null
+	},
+	{
+		"campaignSourceID": "1000",
+		"campaignName": "jkl",
+		"source": "facebook",
+		"pool": "heat-pump",
+		"contrycode": "fr",
+		"mediabuyer_id": "2",
+		"offersRestriction": null
+	}
+]
