@@ -1,0 +1,24 @@
+[
+	{
+	  "birthDate": "10/28/1997",
+	  "cityName": "Paris",
+	  "dwellingType": "Une maison",
+	  "emailAddress": "sadihfr34865@gmail.com",
+	  "firstName": "اسعد",
+	  "heatingType": "Électricité",
+	  "jobType": "En activité",
+	  "lastName": "محمود",
+	  "originDomain": "pompe-a-chaleur.facebook.com",
+	  "phoneNumber": "+494977566555",
+	  "projectTime": "Dans 3 à 6 mois",
+	  "situationType": "Propriétaire",
+	  "streetAddress": ".",
+	  "zipCode": "45000",
+	  "ipAddress": "52.6.229.193",
+	  "userAgent": "Zapier",
+	  "campaignID": "789"
+	},
+	{
+	  "campaignID": "789"
+	}
+  ]

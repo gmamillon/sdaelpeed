@@ -1,0 +1,59 @@
+[
+	{
+	  "dwellingType": "Une maison",
+	  "situationType": "Propriétaire",
+	  "jobType": "Autres revenus",
+	  "originDomain": "panneau-solaire-dominique-new.facebook.com",
+	  "ipAddress": "3.220.115.188",
+	  "userAgent": "Zapier",
+	  "campaignID": "123"
+	},
+	{
+	  "firstName": "Bastien",
+	  "lastName": "Skonieczny",
+	  "dwellingType": "Un appartement",
+	  "situationType": "Propriétaire",
+	  "jobType": "Retraité",
+	  "emailAddress": "bastien.skonieczny@outlook.be",
+	  "phoneNumber": "+32476057341",
+	  "streetAddress": "7777",
+	  "zipCode": "7700",
+	  "cityName": "Mouscron",
+	  "originDomain": "panneau-solaire-dominique-new.facebook.com",
+	  "birthYear": "08/27/1980",
+	  "propertyState": "Terminée",
+	  "ipAddress": "52.6.82.82",
+	  "userAgent": "Zapier",
+	  "campaignID": "123"
+	},
+	{
+	  "dwellingType": "Un appartement",
+	  "situationType": "Propriétaire",
+	  "jobType": "Autres revenus",
+	  "originDomain": "panneau-solaire-dominique-new.facebook.com",
+	  "ipAddress": "54.85.112.125",
+	  "userAgent": "Zapier",
+	  "campaignID": "123"
+	},
+	{
+	  "dwellingType": "Une maison",
+	  "situationType": "Propriétaire",
+	  "jobType": "En activité",
+	  "originDomain": "panneau-solaire-dominique-new.facebook.com",
+	  "ipAddress": "52.6.82.82",
+	  "userAgent": "Zapier",
+	  "campaignID": "123"
+	},
+	{
+	  "dwellingType": "Une maison",
+	  "situationType": "Propriétaire",
+	  "jobType": "En activité",
+	  "originDomain": "panneau-solaire-dominique-new.facebook.com",
+	  "ipAddress": "54.85.112.125",
+	  "userAgent": "Zapier",
+	  "campaignID": "123"
+	},
+	{
+	  "campaignID": "123"
+	}
+  ]
