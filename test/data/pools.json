@@ -1,0 +1,63 @@
+[
+	{
+		"poolName": "solar",
+		"expectedFields": [
+			{
+			  "fieldName": "firstName",
+			  "expectedValues": null
+			},
+			{
+			  "fieldName": "lastName",
+			  "expectedValues": null
+			},
+			{
+			  "fieldName": "dwellingType",
+			  "expectedValues": ["house", "flat", "social", "other"]
+			},
+			{
+			  "fieldName": "situationType",
+			  "expectedValues": ["owner", "tenant"]
+			},
+			{
+			  "fieldName": "jobType",
+			  "expectedValues": ["employed", "unemployed", "liberal", "retired", "other"]
+			},
+			{
+			  "fieldName": "streetAddress",
+			  "expectedValues": null
+			},
+			{
+			  "fieldName": "zipCode",
+			  "expectedValues": null
+			},
+			{
+			  "fieldName": "cityName",
+			  "expectedValues": []
+			},
+			{
+			  "fieldName": "originDomain",
+			  "expectedValues": []
+			},
+			{
+			  "fieldName": "birthYear",
+			  "expectedValues": []
+			},
+			{
+			  "fieldName": "propertyState",
+			  "expectedValues": []
+			},
+			{
+			  "fieldName": "ipAddress",
+			  "expectedValues": []
+			},
+			{
+			  "fieldName": "userAgent",
+			  "expectedValues": []
+			},
+			{
+			  "fieldName": "campaignID",
+			  "expectedValues": []
+			}
+		]
+	}
+]

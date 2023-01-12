@@ -13,5 +13,6 @@ export interface Campaign {
 	pool: string,
 	contrycode: string,
 	mediabuyer_id?: ObjectId,
-	offersRestriction: string[]|null
+	offersRestriction: string[]|null,
+	mappingSet_id?: ObjectId
 }
