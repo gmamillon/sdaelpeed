@@ -1,0 +1,81 @@
+[
+	{
+		"fieldName": "firstName",
+		"expectedValues": null,
+		"regex": "[A-Za-z]"
+	},
+	{
+		"fieldName": "lastName",
+		"expectedValues": null,
+		"regex": "[A-Za-z]"
+	},
+	{
+		"fieldName": "emailAddress",
+		"expectedValues": null,
+		"regex": "[A-Za-z]"
+	},
+	{
+		"fieldName": "phoneNumber",
+		"expectedValues": null,
+		"regex": "^[1-9]{1}[0-9]{8}$"
+	},
+	{
+		"fieldName": "campaignID",
+		"expectedValues": null,
+		"regex": null
+	},
+	{
+		"fieldName": "zipCode",
+		"expectedValues": null,
+		"regex": "^[0-9]{5}$"
+	},
+	{
+		"fieldName": "streetAddress",
+		"expectedValues": null,
+		"regex": null
+	},
+	{
+		"fieldName": "cityName",
+		"expectedValues": null,
+		"regex": "[A-Za-z]"
+	},
+	{
+		"fieldName": "birthYear",
+		"expectedValues": null,
+		"regex": "^19[0-9]{2}$|^200[0-5]{1}$"
+	},
+	{
+		"fieldName": "ipAddress",
+		"expectedValues": null,
+		"regex": null
+	},
+	{
+		"fieldName": "userAgent",
+		"expectedValues": null,
+		"regex": null
+	},
+	{
+		"fieldName": "dwellingType",
+		"expectedValues": ["house", "flat", "social", "other"]
+	},
+	{
+		"fieldName": "situationType",
+		"expectedValues": ["owner", "tenant"]
+	},
+	{
+		"fieldName": "jobType",
+		"expectedValues": ["employed", "unemployed", "liberal", "retired", "other"]
+	},
+	{
+		"fieldName": "propertyState",
+		"expectedValues": ["done", "construction", "renovation"]
+	},
+	{
+		"fieldName": "heatingType",
+		"expectedValues": ["gas", "oil", "electricity", "stove", "other"]
+	},
+	{
+		"fieldName": "dwellingDate",
+		"expectedValues": ["lt-2-years", "gt-2-years"]
+	}
+]

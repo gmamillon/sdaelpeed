@@ -1,0 +1,50 @@
+[
+	{
+		"clientName": "petitclient",
+		"clientInfos": {
+			"siret": "1000",
+			"phoneNumber": "0555555555",
+			"emailAddress": "petit@client.com",
+			"currency": "EUR",
+			"comment": "",
+			"address": {
+				"country": "fr",
+				"city": "Paris",
+				"zipCode": "75015",
+				"streetAddress": "7 rue Mbappe"
+			}
+		}
+	},
+	{
+		"clientName": "moyenclient",
+		"clientInfos": {
+			"siret": "1000",
+			"phoneNumber": "0666666666",
+			"emailAddress": "moyen@client.com",
+			"currency": "EUR",
+			"comment": "",
+			"address": {
+				"country": "fr",
+				"city": "Lyonzon",
+				"zipCode": "69004",
+				"streetAddress": "22 rue Ashe"
+			}
+		}
+	},
+	{
+		"clientName": "grosclient",
+		"clientInfos": {
+			"siret": "1000",
+			"phoneNumber": "0777777777",
+			"emailAddress": "gros@client.com",
+			"currency": "EUR",
+			"comment": "",
+			"address": {
+				"country": "fr",
+				"city": "Bordeaux",
+				"zipCode": "33001",
+				"streetAddress": "24 rue de l'horloge"
+			}
+		}
+	}
+]

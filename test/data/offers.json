@@ -1,0 +1,11 @@
+[
+	{
+		"offerName": "string",
+		"countryCode": "string",
+		"devalidationRate": "number",
+		"duplicateBlockDays": "number",
+		"status": "OfferStatus",
+		"params": "OfferParams",
+		"dataSendingConfig": "DataSendingConfig"
+	}
+]

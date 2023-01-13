@@ -75,7 +75,8 @@ export interface OfferConfig {
 	client_id: ObjectId,
 	offerName: string,
 	countryCode: string,
-	devalidationRate: number
+	devalidationRate: number,
+	duplicateBlockDays: number,
 	status?: OfferStatus,
 	params?: OfferParams,
 	dataSendingConfig: DataSendingConfig
