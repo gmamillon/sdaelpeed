@@ -30,7 +30,7 @@ export interface OfferParamsDetails {
 export interface OfferParams {
 	currentParams: OfferParamsDetails,
 	defaultParams: OfferParamsDetails,
-	paramsCalendar: OfferParamsDetails[]
+	paramsCalendar?: OfferParamsDetails[]
 }
 
 
@@ -75,6 +75,7 @@ export interface OfferConfig {
 	client_id: ObjectId,
 	offerName: string,
 	countryCode: string,
+	poolName: string,
 	devalidationRate: number,
 	duplicateBlockDays: number,
 	status?: OfferStatus,

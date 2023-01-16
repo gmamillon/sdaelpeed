@@ -1,6 +1,6 @@
 [
 	{
-		"poolName": "solar",
+		"poolName": "solar-panel",
 		"expectedFields": [
 			"emailAddress",
 			"phoneNumber",
