@@ -30,7 +30,6 @@ export class LeadRaw {
             const { profile_id, raw } = this;
             const foundRaw = yield Raw.findOne({
                 profile_id,
-                'raw.poolName': raw.poolName,
                 creationDate: { $gte: new Date(Date.now() - 7 * 24 * 3600 * 1000) }
             });
             if (foundRaw) {

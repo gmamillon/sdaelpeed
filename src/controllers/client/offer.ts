@@ -7,10 +7,13 @@ export class UseOffer implements OfferConfig {
 	public _id: ObjectId
 	public client_id: ObjectId
 	public offerName: string
+	public poolName: string
 	public countryCode: string
 	public status: OfferStatus
 	public params: OfferParams
 	public dataSendingConfig: DataSendingConfig
+	public duplicateBlockDays: number
+	public devalidationRate: number
 
 	constructor (client_id: ObjectId, offer: OfferConfig) {
 

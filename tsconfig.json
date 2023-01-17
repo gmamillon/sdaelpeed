@@ -5,6 +5,7 @@
 		"moduleResolution": "node",
 		"sourceMap": true,
 		"outDir": "dist",
+		"types": ["vitest/globals"]
 	},
 	"include": [
 		"src/**/*.ts"

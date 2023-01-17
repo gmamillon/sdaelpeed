@@ -4,10 +4,33 @@ const offerSchema = new Schema({
     clientName: { type: String, requiered: true },
     offerName: { type: String, requiered: true },
     countryCode: { type: String, requiered: true },
-    payout: { type: Number, requiered: true },
-    isActive: { type: Boolean, requiered: true },
-    startActivation: { type: Date },
-    endActivation: { type: Date }
+    status: {
+        type: Object,
+        requiered: true,
+        default: {
+            RUNNING: false,
+            PUBLISHED: false,
+            ARCHIVED: false
+        }
+    },
+    params: {
+        type: Object,
+        requiered: true,
+        default: {
+            currentParams: {},
+            defaultParams: {},
+            paramsCalendar: []
+        }
+    },
+    dataSendingConfig: {
+        type: Object,
+        requiered: true,
+        default: {
+            recipientType: null
+        }
+    },
+    devalidationRate: { type: Number, default: 0 },
+    creationDate: { type: Date, default: Date.now() }
 });
 export const Offer = model('Offers', offerSchema);
 //# sourceMappingURL=offer.js.map

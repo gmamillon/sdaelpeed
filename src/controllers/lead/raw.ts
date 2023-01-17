@@ -9,6 +9,7 @@ export class LeadRaw implements TypeWrappedLeadRaw {
 	public creationDate: Date
 	public isAccepted: boolean
 	public readonly raw: TypeLeadRaw
+	public leadValue: number
 
 	constructor(profile_id: ObjectId, raw: TypeLeadRaw) {
 
@@ -35,7 +36,6 @@ export class LeadRaw implements TypeWrappedLeadRaw {
 		const { profile_id, raw } = this
 		const foundRaw = await Raw.findOne({
 			profile_id,
-			'raw.poolName': raw.poolName,
 			creationDate: { $gte: new Date(Date.now() - 7 * 24 * 3600 * 1000) }
 		})
 

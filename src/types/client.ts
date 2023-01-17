@@ -17,6 +17,5 @@ export interface ClientInfos {
 export interface TypeClient {
 	clientName: string,
 	clientInfos: ClientInfos,
-	duplicateBlockDays: number
 }
 
