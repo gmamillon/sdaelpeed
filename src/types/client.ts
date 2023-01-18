@@ -1,11 +1,11 @@
-export interface ClientAddress {
+export type ClientAddress = {
 	country: string,
 	city: string,
 	zipCode: string,
 	streetAddress: string,
 }
 
-export interface ClientInfos {
+export type ClientInfos = {
 	siret: string,
 	phoneNumber: string,
 	emailAddress: string,
@@ -14,7 +14,7 @@ export interface ClientInfos {
 	comment: string
 }
 
-export interface TypeClient {
+export type TypeClient = {
 	clientName: string,
 	clientInfos: ClientInfos,
 }

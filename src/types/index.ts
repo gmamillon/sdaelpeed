@@ -1,4 +1,4 @@
-export { Campaign, ValueFormatSettings } from './campaign'
+export { Campaign } from './campaign'
 export { TypeClient, ClientInfos, ClientAddress } from './client'
 export { TypeWrappedLeadRaw, TypeLeadRaw, TypeLeadProfile } from './lead'
 export { LeadField } from './lead-field'

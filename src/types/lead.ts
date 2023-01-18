@@ -1,6 +1,6 @@
 import { ObjectId } from 'mongoose'
 
-export interface TypeLeadProfile {
+export type TypeLeadProfile = {
 	creationDate: Date,
 	offers: string[],
 	pools: string[],
@@ -8,13 +8,13 @@ export interface TypeLeadProfile {
 	emailAddress: string
 }
 
-export interface TypeLeadRaw {
+export type TypeLeadRaw = {
 	phoneNumber: string,
 	emailAddress: string,
 	campaignID?: string
 }
 
-export interface TypeWrappedLeadRaw {
+export type TypeWrappedLeadRaw = {
 	profile_id: ObjectId,
 	creationDate: Date,
 	isAccepted: boolean,

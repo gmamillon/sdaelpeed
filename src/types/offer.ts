@@ -1,14 +1,14 @@
 import { ObjectId } from 'mongoose'
 
 // Define the offer's status
-export interface OfferStatus {
+export type OfferStatus = {
 	RUNNING: boolean,
 	PUBLISHED: boolean,
 	ARCHIVED: boolean
 }
 
 // Define for one day the payout, cap and working hour range (the day period when the offer is "opened")
-export interface DailyRules {
+export type DailyRules = {
 	payout: number,
 
 	// The cap can be limited or not
@@ -18,7 +18,7 @@ export interface DailyRules {
 }
 
 // Define the running period of a offer set of parameters values, and their definition by week days
-export interface OfferParamsDetails {
+export type OfferParamsDetails = {
 	startDate?: Date,
 	endDate?: Date,
 	geoType: 'zipcode'|'frregion'|'esregion'|'ptregion'|string
@@ -27,7 +27,7 @@ export interface OfferParamsDetails {
 }
 
 // Define the offer parameters, allow us to have dynamic payout, activation periods and lead cap
-export interface OfferParams {
+export type OfferParams = {
 	currentParams: OfferParamsDetails,
 	defaultParams: OfferParamsDetails,
 	paramsCalendar?: OfferParamsDetails[]
@@ -35,7 +35,7 @@ export interface OfferParams {
 
 
 // Define the client API configuration when the client receives his leads this way
-export interface RecipientAPIConfig {
+export type RecipientAPIConfig = {
 	// Client's API lead endpoint URL
 	url?: string,
 
@@ -53,14 +53,14 @@ export interface RecipientAPIConfig {
 }
 
 // Define needed informations to send a lead to a google sheet
-export interface SheetConfig {
+export type SheetConfig = {
 	sheetID: string,
 	range: string,
 	refreshToken: string
 }
 
 // Define the way we send leads for a client's offer
-export interface DataSendingConfig {
+export type DataSendingConfig = {
 	// lead sending way
 	recipientType: 'sheet'|'api'|null,
 
@@ -71,7 +71,7 @@ export interface DataSendingConfig {
 
 
 // Define the whole offer, link it to a client, set a name, the status .. 
-export interface OfferConfig {
+export type OfferConfig = {
 	client_id: ObjectId,
 	offerName: string,
 	countryCode: string,
